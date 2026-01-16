@@ -13,7 +13,7 @@
     "min_version": "1",
     "fingerprints": [{
       "type": "sha256_cert",
-      "value": "b50932898df642b9a08c6b75bc0acf038703260430112022b541678ee4494511"
+      "value": "B4:53:D3:7C:78:28:56:F7:82:A8:E0:9F:14:EE:20:B8:4F:49:A3:10:75:F4:7F:D3:A0:79:82:D8:CA:FE:FF:D9"
     }]
   }],
   "prefer_related_applications": true
