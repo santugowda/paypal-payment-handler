@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/pay"
+  to = "/pay.html"
+  status = 200
