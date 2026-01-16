@@ -1,0 +1,9 @@
+/pay
+  Link: <https://beamish-axolotl-e11e4c.netlify.app/pay.json>; rel="payment-method-manifest"
+  Content-Type: text/html; charset=utf-8
+
+/pay.json
+  Content-Type: application/json; charset=utf-8
+  
+/app-manifest.json
+  Content-Type: application/json; charset=utf-8
