@@ -1,0 +1,4 @@
+{
+  "default_applications": ["https://beamish-axolotl-e11e4c.netlify.app/app-manifest.json"],
+  "supported_origins": "*"
+}
