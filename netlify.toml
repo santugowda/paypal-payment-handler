@@ -11,7 +11,13 @@
     Link = "</.well-known/payment-manifest.json>; rel=\"payment-method-manifest\""
 
 [[headers]]
-  for = "/.well-known/*"
+  for = "/.well-known/payment-manifest.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/json"
+
+[[headers]]
+  for = "/pay-manifest.json"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/json"
