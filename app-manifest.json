@@ -10,11 +10,7 @@
   "related_applications": [{
     "platform": "play",
     "id": "com.paypal.android.p2pmobile",
-    "min_version": "1",
-    "fingerprints": [{
-      "type": "sha256_cert",
-      "value": "B5:09:32:89:8D:F6:42:B9:A0:8C:6B:75:BC:0A:CF:03:87:03:26:04:30:11:20:22:B5:41:67:8E:E4:49:45:11"
-    }]
+    "min_version": "1"
   }],
   "prefer_related_applications": true
 }
