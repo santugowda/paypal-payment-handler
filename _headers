@@ -1,9 +1,13 @@
 /pay
   Link: </.well-known/payment-manifest.json>; rel="payment-method-manifest"
-  Content-Type: application/json
+  Content-Type: text/html
   Access-Control-Allow-Origin: *
 
 /.well-known/payment-manifest.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/pay-manifest.json
   Content-Type: application/json
   Access-Control-Allow-Origin: *
   
