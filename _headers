@@ -1,9 +1,12 @@
 /pay
-  Link: <https://beamish-axolotl-e11e4c.netlify.app/pay.json>; rel="payment-method-manifest"
-  Content-Type: text/html; charset=utf-8
+  Link: </.well-known/payment-manifest.json>; rel="payment-method-manifest"
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
 
-/pay.json
-  Content-Type: application/json; charset=utf-8
+/.well-known/payment-manifest.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
   
 /app-manifest.json
-  Content-Type: application/json; charset=utf-8
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
