@@ -1,8 +1,13 @@
+[[redirects]]
+  from = "/pay"
+  to = "/pay.html"
+  status = 200
+
 [[headers]]
   for = "/pay"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Content-Type = "application/json"
+    Content-Type = "text/html"
     Link = "</.well-known/payment-manifest.json>; rel=\"payment-method-manifest\""
 
 [[headers]]
